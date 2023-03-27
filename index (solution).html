@@ -7,7 +7,7 @@
     DIRECTIONS: Below are solutions to all the practice problems for this learning objective.  You can try each solution by copying it into your "index.html" file and clicking "Run". 
     */
       /*
-      PROBLEM 1: Write an object called chef that includes your name, where you are from, and a greet method that returns "Hello I am (add your name), and my specialty is grilling".Console.log your greeting so it prints to the console.
+      PROBLEM 1: Write an object called chef that includes your name, where you are from, and a greet method that returns "Hello I am (add your name), and my specialty is grilling". Console.log the result of the greet function so it prints to the console.
       */
         //ENTER YOUR CODE HERE
         const chef = {
@@ -20,7 +20,7 @@
         console.log(chef.greet());
 
         /* 
-        PROBLEM 2: Write an object called baker that includes her name, her station (the bakery), and a bake method that returns "Veronica just baked a (add a baked item)". Console.log your greeting so it prints to the console.
+        PROBLEM 2: Write an object called baker that includes her name, her station (the bakery), and a bake method that returns "Veronica just baked a (add a baked item)". Console.log the result of the bake function so it prints to the console.
         */
         //ENTER YOUR CODE HERE
         const baker = {
@@ -37,7 +37,7 @@
            • A boolean showing if the knife is sharp or not
            • The size of the knife
            • A cut method with a number and a food item as parameters that returns "cut (add food) in (add number) seconds"
-        Console.log your greeting so it prints to the console.
+        Console.log the result of the cut method so it prints to the console.
        */
         //ENTER YOUR CODE HERE
         let knife = {
@@ -47,6 +47,7 @@
             return `cut ${food} in ${number} seconds`;
           }
         }
+        console.log(knife.cut(5, "potatoe"))
 
         /* 
         PROBLEM 4: Write an object called Chicken Parmesan that uses the compact syntax and includes: 
@@ -80,12 +81,12 @@
         let hostess = {
           name: "Cara",
           experience: "7 years",
-          seat: function (number) {
+          seat: function (number) { // fixed the syntax by making "seat" the key
             return `Right this way to table ${number}`;
           }
         }
 
-        console.log(hostess.seat(5));
+        console.log(hostess.seat(5)); 
        
         //OTHER SYNTAX ANSWER
           // let hostess = {
