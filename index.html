@@ -31,7 +31,7 @@ and returns "(add name) just baked a (add baked good)". Console.log the result o
       }
     }
     
-    const baked = baker.bake('Desi', 'cookie'); // added parameters for example
+    const baked = baker.bake(baker.name, 'cookie'); // added bakedGood parameter for example
     console.log(baked);
 
      /* 
@@ -67,7 +67,7 @@ and returns "(add name) just baked a (add baked good)". Console.log the result o
       }
     }
     
-    const serve = chickenParmesan.serve('entree', 'Penne');
+    const serve = chickenParmesan.serve(chickenParmesan.course, 'Penne');
     console.log(serve);
 
     /* 
